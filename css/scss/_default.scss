@@ -1,0 +1,63 @@
+html {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.2em!important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+p + p {
+    margin-top: 15px;
+}
+
+a {
+    color: #767676;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+        color: $black;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    line-height: 1.25em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#page {
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1220px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text-center {
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+#subscription-section {
+    padding: 100px 0;
+    background-color: #1d2228;
+    color: $white;
+    text-align: center;
+
+    .title {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 20px;
+        font-weight: 100;
+    }
+    
+    .subscription-box {
+        max-width: 500px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+
+        form {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        input {
+            flex: 1;
+            min-width: 100px;
+            margin-right: 5px;
+        }
+
+        button {
+            width: auto;
+        }
+    }
+}

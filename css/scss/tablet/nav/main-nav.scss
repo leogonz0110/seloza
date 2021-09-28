@@ -1,0 +1,18 @@
+#main-nav {
+    display: flex;
+    position: relative;
+    top: unset;
+    right: unset;
+    bottom: unset;
+    width: unset;
+    padding-top: 0;
+    flex-direction: row;
+    border: 0;
+
+    a {
+        
+        .label {
+            display: none;
+        }
+    }
+}
